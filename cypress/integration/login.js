@@ -20,5 +20,12 @@ describe("Login form", () => {
         cy.contains("Fel användarnamn eller lösenord!").end();
     });
 
+    it("Links to Register", () => {
+        cy.visit("/");
+        cy.get("a").click();
+
+        cy.contains("Registrera!")
+    });
+
 
 })
