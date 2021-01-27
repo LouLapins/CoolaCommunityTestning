@@ -14,15 +14,7 @@ describe("guestbook validation", () => {
         
     });
 
-    // Lite osäker om både create post & remove post behövs
-    it("create post", () => {
-        cy.visit("/guestbook");
-        cy.get("form");
-        cy.get('textarea[id="guestbookInput"]').type("här är min första post");
-        cy.get("form").submit().end();
-    })
-
-    it("remove post", () => {
+    it("create and remove post", () => {
         cy.visit("/guestbook");
         cy.get("form");
         cy.get('textarea[id="guestbookInput"]').type("den här posten ska jag ta bort");
