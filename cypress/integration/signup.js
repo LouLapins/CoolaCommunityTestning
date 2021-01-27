@@ -38,6 +38,7 @@ describe("Signup form", () => {
 
 
         cy.get("form");
+
         cy.get('input[name="username"]').type("LouLapins");
         cy.get('input[name="email"]').type("email@domain.");
         cy.get("form").submit();
@@ -98,7 +99,6 @@ describe("Signup form", () => {
         cy.get("a").click();
 
         cy.contains("Coola communityt!").end();
-
     });
 
 });

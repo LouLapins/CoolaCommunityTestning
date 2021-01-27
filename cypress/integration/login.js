@@ -26,6 +26,4 @@ describe("Login form", () => {
 
         cy.contains("Registrera!")
     });
-
-
 })
