@@ -10,6 +10,6 @@ describe("Startsida", () => {
 
         cy.visit("/start.html");
         cy.get('a[href="/"]').click();
-        cy.url().should("eq", "http://localhost:5500/").end();
+        cy.url().should("eq", Cypress.config().baseUrl).end();
     })
 })

@@ -18,5 +18,8 @@
     "url": "https://github.com/LouLapins/CoolaCommunityTestning/issues"
   },
   "homepage": "https://github.com/LouLapins/CoolaCommunityTestning#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "serve": "^11.3.2"
+  }
 }
