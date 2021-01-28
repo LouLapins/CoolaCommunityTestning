@@ -19,4 +19,5 @@ We did not write the actual website code, only the tests for it.
 - To run cypress:
 ```npm run test```
 
-Our test code files can be found in [Cypress folder -> Integration] (https://github.com/LouLapins/CoolaCommunityTestning/tree/main/cypress/integration).
+Our test code files can be found in [Cypress folder -> Integration] (https://github.com/LouLapins/CoolaCommunityTestning/tree/main/cypress/integration)
+
