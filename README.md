@@ -6,7 +6,7 @@ We did not write the actual website code, only the tests for it.
 
 ## Installation
 
-- Clone the repository: https://github.com/LouLapins/CoolaCommunityTestning.git
+- Clone the repository: ```https://github.com/LouLapins/CoolaCommunityTestning.git```
 
 - To install node_modules
 ```npm i```
