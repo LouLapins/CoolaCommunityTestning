@@ -1,14 +1,25 @@
 {
-    "name": "testning",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "test": "cypress open"
-    },
-    "author": "",
-    "license": "ISC",
-    "devDependencies": {
-        "cypress": "^6.3.0"
-    }
+  "name": "testning",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^6.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LouLapins/CoolaCommunityTestning.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LouLapins/CoolaCommunityTestning/issues"
+  },
+  "homepage": "https://github.com/LouLapins/CoolaCommunityTestning#readme",
+  "description": "",
+  "dependencies": {
+    "serve": "^11.3.2"
+  }
 }
