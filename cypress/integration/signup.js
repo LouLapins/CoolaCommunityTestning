@@ -4,8 +4,6 @@ describe("Signup form", () => {
 
         cy.visit("/register");
 
-        cy.get("form");
-        // Typing nothing
         cy.get("form").submit();
 
         cy.contains("För kort eller för långt användarnamn!");
@@ -98,7 +96,7 @@ describe("Signup form", () => {
         cy.get("form").submit();
         cy.get("a").click();
 
-        cy.contains("Coola communityt!").end();
+        cy.url().should("eq", Cypress.config().baseUrl).end();
     });
 
 });
