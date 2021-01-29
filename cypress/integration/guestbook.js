@@ -16,10 +16,10 @@ describe("guestbook validation", () => {
 
     it("create and remove post", () => {
         cy.visit("/guestbook");
-        cy.get("form");
         cy.get('textarea[id="guestbookInput"]').type("den här posten ska jag ta bort");
         cy.get("form").submit();
-        cy.get("a:nth-child(2)").click().end();
+        cy.get("p").contains("den här posten ska jag ta bort").contains("a").click();
+        cy.get("#entries").contains("den här posten ska jag ta bort").should("not.exist").end();
     })
 
     it("go back", () => {
